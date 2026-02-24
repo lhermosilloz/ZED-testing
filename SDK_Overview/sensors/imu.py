@@ -1,5 +1,4 @@
 import os
-
 import pyzed.sl as sl
 
 
@@ -25,7 +24,7 @@ def main():
         # Extract IMU data
         imu_data = sensors_data.get_imu_data()
 
-        # Retrieve linear acceleration and angualar velocity
+        # Retrieve linear acceleration and angular velocity
         linear_acceleration = imu_data.get_linear_acceleration()
         angular_velocity = imu_data.get_angular_velocity()
 
