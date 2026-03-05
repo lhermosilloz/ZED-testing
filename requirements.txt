@@ -1,0 +1,22 @@
+# ZED Comprehensive Dashboard Requirements
+# Core dependencies for the ZED camera dashboard
+
+# ZED SDK Python bindings
+# Note: You need to install the ZED SDK from Stereolabs first
+# Download from: https://www.stereolabs.com/developers/release/
+# The pyzed module comes with the SDK installation
+
+# GUI and visualization
+tkinter  # Usually comes with Python
+matplotlib>=3.5.0
+numpy>=1.20.0
+opencv-python>=4.5.0
+
+# Image processing and display
+Pillow>=8.0.0
+
+# Optional: For enhanced GUI styling
+ttkthemes>=3.2.0
+
+# Development and testing
+pytest>=6.0.0  # For testing if needed
